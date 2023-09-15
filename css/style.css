@@ -14,7 +14,7 @@ body {
 }
 
 ul,
-ol {
+list {
   list-style-type: none;
 }
 
@@ -80,13 +80,31 @@ ol {
 
 .second-title {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
 
+.bg-silver {
+  background-color: #f4f4fd;
+}
+
+.characteristic {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.our-team-item {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 /* portfolio */
 
 .category-button {
