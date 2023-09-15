@@ -40,6 +40,10 @@ ol {
   line-height: 24px;
 }
 
+.logo-decor {
+  color: #f4f4fd;
+}
+
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
@@ -74,7 +78,7 @@ ol {
   background: #404bbf;
 }
 
-.work-title {
+.second-title {
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
@@ -118,4 +122,5 @@ ol {
   font-size: 16px;
   line-height: 24px;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
