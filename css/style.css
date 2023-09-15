@@ -54,7 +54,7 @@ ul,
 }
 
 .address-link {
-  color: #434455;
+  color: var(--brand-color);
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
@@ -113,9 +113,10 @@ ul,
 
 .team-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -170,7 +171,7 @@ ul,
 .product {
   font-size: 16px;
   line-height: 24px;
-  color: #434455;
+  color: var(--brand-color);
 }
 
 .footer {
