@@ -1,4 +1,65 @@
+:root {
+  --brand-color: #2e2f42;
+}
+
 body {
   /* font-family: "Raleway", sans-serif; */
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--brand-color);
+  background-color: #ffffff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.address-link {
+  color: #434455;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+.category-button {
+  background: #f4f4fd;
+  color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.category-button:hover {
+  background: #404bbf;
+}
+
+.portfolio-title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.product {
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f4fd;
 }
