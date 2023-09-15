@@ -40,12 +40,16 @@ ul,
   color: #2e2f42;
 }
 
-.navigation-item:hover,
-.navigation-item:focus {
+.navigation-link {
+  color: #2e2f42;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
   color: #404bbf;
 }
 
-.address-list {
+.header-address {
   font-style: normal;
 }
 
@@ -57,7 +61,10 @@ ul,
   line-height: 24px;
 }
 
-.logo-decor {
+.logo-decor-header {
+  color: #2e2f42;
+}
+.logo-decor-footer {
   color: #f4f4fd;
 }
 
