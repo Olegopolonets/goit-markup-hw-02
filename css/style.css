@@ -1,5 +1,5 @@
 :root {
-  --brand-color: #2e2f42;
+  --brand-color: #434455;
 }
 
 body {
@@ -30,6 +30,37 @@ ol {
   color: #404bbf;
 }
 
+/* index.html */
+.intro {
+  background-color: #2e2f42;
+}
+
+.intro-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.intro-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.intro-button:hover,
+.intro-button:focus {
+  background: #404bbf;
+}
+
+/* portfolio */
+
 .category-button {
   background: #f4f4fd;
   color: #4d5ae5;
@@ -39,7 +70,8 @@ ol {
   cursor: pointer;
 }
 
-.category-button:hover {
+.category-button:hover,
+.category-button:focus {
   background: #404bbf;
 }
 
