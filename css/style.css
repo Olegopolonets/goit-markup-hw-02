@@ -1,5 +1,6 @@
 :root {
   --brand-color: #434455;
+  --logo-color: #4d5ae5;
 }
 
 body {
@@ -15,6 +16,20 @@ body {
 ul,
 ol {
   list-style-type: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .address-link {
@@ -57,6 +72,15 @@ ol {
 .intro-button:hover,
 .intro-button:focus {
   background: #404bbf;
+}
+
+.work-title {
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 /* portfolio */
