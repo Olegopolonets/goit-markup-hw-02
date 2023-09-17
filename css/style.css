@@ -1,6 +1,6 @@
 :root {
   --brand-color: #434455;
-  --logo-color: #4d5ae5;
+  --secondary-color: #4d5ae5;
 }
 
 body {
@@ -18,6 +18,7 @@ ul,
   list-style-type: none;
 }
 
+/* header */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -25,11 +26,14 @@ ul,
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-color);
+  color: var(--secondary-color);
 }
 
-.link {
-  text-decoration: none;
+.logo-decor-header {
+  color: #2e2f42;
+}
+.logo-decor-footer {
+  color: #f4f4fd;
 }
 
 .navigation-item {
@@ -49,6 +53,10 @@ ul,
   color: #404bbf;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .header-address {
   font-style: normal;
 }
@@ -60,13 +68,6 @@ ul,
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-}
-
-.logo-decor-header {
-  color: #2e2f42;
-}
-.logo-decor-footer {
-  color: #f4f4fd;
 }
 
 .address-link:hover,
@@ -88,7 +89,7 @@ ul,
 }
 
 .intro-button {
-  background-color: #4d5ae5;
+  background-color: var(--secondary-colorr);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -103,11 +104,29 @@ ul,
   background: #404bbf;
 }
 
-.advantages-title {
+.advantages-title,
+.employee-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.characteristic,
+.employee-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+
+.about-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -121,24 +140,8 @@ ul,
   color: #2e2f42;
 }
 
-.second-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
 .bg-silver {
   background-color: #f4f4fd;
-}
-
-.characteristic {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--brand-color);
 }
 
 .our-team-item {
@@ -152,8 +155,8 @@ ul,
 /* portfolio */
 
 .category-button {
-  background: #f4f4fd;
-  color: #4d5ae5;
+  background-color: #f4f4fd;
+  color: var(--secondary-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
